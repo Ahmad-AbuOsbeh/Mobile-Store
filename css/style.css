@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;   
+}
+
+body{
+    
+    font-family: 'Courgette', cursive;
+}
+
+/*
+
+used colors
+
+WhiteSmoke
+RGBA(211, 211, 211, 0.548)
+RGB(78, 78, 78)
+RGB(39, 39, 39) */
+
+header{
+
+    background-color:whitesmoke ;
+    color: RGB(39, 39, 39);
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+
+
+main{
+    background-image: url('/img/NX7PC.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 375px;
+}
+
+
+form{
+    float: left;
+    background-color:RGBA(211, 211, 211, 0.548) ;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 50px;
+    width: 300px;
+    height: 175px;
+    padding-top: 15px;
+}
+
+
+#table-container{
+    float: right;
+    background-color:RGBA(211, 211, 211, 0.548) ;
+    width: 400px;
+    height: fit-content;
+    margin-right: 20px;
+    margin-top: 50px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 25px;
+    padding-bottom: 45px;
+    margin-bottom: 10px;
+}
+
+table{
+    text-align: center;
+}
+input,select{
+    width: 125px;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+label{
+    font-weight: bolder;
+}
+
+#name{
+    height:25px ;
+}
+
+
+#submit{
+    background-color:RGB(39, 39, 39) ;
+    color: whitesmoke;
+}
+
+
+th,td{
+    border: 2px solid whitesmoke;
+    padding: 10px;
+}
+
+
+
+th{
+    background-color:RGB(39, 39, 39) ;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+td{
+    background-color:RGB(78, 78, 78) ;
+    color: whitesmoke;
+}
+
+#button{
+    margin-top: 15px;
+    width: 90px;
+    height: 25px;
+    border-radius: 5px;
+    color:RGB(39, 39, 39) ;
+    font-weight: bold;
+    background-color: whitesmoke;
+}
+
+footer{
+    /* background-color:RGBA(211, 211, 211, 0.548) ; */
+    background-color:whitesmoke ;
+    color: RGB(39, 39, 39);
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: small;
+    font-weight: bolder;
+    clear: both;
+}
+
